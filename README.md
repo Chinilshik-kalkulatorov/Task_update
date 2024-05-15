@@ -8,7 +8,7 @@ A hexadecimal number is a number expressed in the base-16 numeral system. This s
 
 ## Program Description
 
-The `extra_update.c` program performs the following tasks:
+The `dop_project.c` program performs the following tasks:
 
 1. Converts a hexadecimal number to its binary representation.
 2. Converts a hexadecimal number to its decimal representation (unsigned).
