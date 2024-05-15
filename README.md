@@ -22,18 +22,18 @@ To compile and run the program, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Chinilshik-kalkulatorov/Extra_update.git
-    cd Extra_update
+    git clone https://github.com/Chinilshik-kalkulatorov/Task_update.git
+    cd Task_update
     ```
 
 2. Compile the program using the `gcc` compiler:
     ```bash
-    gcc extra_update.c -o extra_update
+    gcc dop_project.c -o dop_project.c
     ```
 
 3. Run the compiled program:
     ```bash
-    ./extra_update
+    ./dop_project.c
     ```
 
 4. When prompted, enter a 4-digit hexadecimal number (e.g., A1B2).
