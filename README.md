@@ -16,6 +16,28 @@ The `dop_project.c` program performs the following tasks:
 
 The program prompts the user to enter a 4-digit hexadecimal number, and then performs the conversions.
 
+## Algorithm Diagram
+
+The following diagram illustrates how the program works:
+
+```mermaid
+graph TD
+    A[Start] --> B[Prompt for 4-digit Hexadecimal Input]
+    B --> C[Convert Hexadecimal to Binary]
+    C --> D[Convert Hexadecimal to Decimal (unsigned)]
+    D --> E{Is the First Bit 1?}
+    E -->|Yes| F[Invert all Bits]
+    F --> G[Add 1 to the Result]
+    G --> H[Convert Result to Decimal]
+    H --> I[Apply Negative Sign]
+    E -->|No| J[Output Decimal as is]
+    I --> K[Print Results]
+    J --> K[Print Results]
+    K --> L[Ask for New Input or End]
+    L -->|New Input| B
+    L -->|End| M[Finish]
+```
+
 ## Compilation and Execution
 
 To compile and run the program, follow these steps:
