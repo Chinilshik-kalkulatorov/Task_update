@@ -26,7 +26,8 @@ The following diagram illustrates how the program works:
 
 ```mermaid
 graph TD
-    A[Start] --> B[Prompt for 4-digit Hexadecimal Input]
+    A[Start]
+    A --> B[Prompt for 4-digit Hexadecimal Input]
     B --> C[Convert Hexadecimal to Binary (16 bits)]
     C --> D[Convert Hexadecimal to Decimal (unsigned)]
     D --> E{Is the First Bit 1?}
@@ -36,7 +37,7 @@ graph TD
     H --> I[Apply Negative Sign]
     E -->|No| J[Output Decimal as is]
     I --> K[Print Results]
-    J --> K[Print Results]
+    J --> K
     K --> L[Ask for New Input or End]
     L -->|New Input| B
     L -->|End| M[Finish]
