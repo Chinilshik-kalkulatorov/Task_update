@@ -20,10 +20,14 @@ The program prompts the user to enter a 4-digit hexadecimal number, and then per
 
 The following diagram illustrates how the program works:
 
+## Algorithm Diagram
+
+The following diagram illustrates how the program works:
+
 ```mermaid
 graph TD
     A[Start] --> B[Prompt for 4-digit Hexadecimal Input]
-    B --> C[Convert Hexadecimal to Binary]
+    B --> C[Convert Hexadecimal to Binary (16 bits)]
     C --> D[Convert Hexadecimal to Decimal (unsigned)]
     D --> E{Is the First Bit 1?}
     E -->|Yes| F[Invert all Bits]
