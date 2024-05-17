@@ -22,27 +22,26 @@ The following diagram illustrates how the program works:
 
 ## Algorithm Diagram
 
+Algorithm Diagram
 The following diagram illustrates how the program works:
-
 ```mermaid
 graph TD
-    A(Start)
-    A --> B(Prompt for 4-digit Hexadecimal Input)
-    B --> C(Convert Hexadecimal to Binary (16 bits))
-    C --> D(Convert Hexadecimal to Decimal (unsigned))
-    D --> E{Is the First Bit 1?}
-    E --> |Yes| F(Invert all Bits)
-    F --> G(Add 1 to the Result)
-    G --> H(Convert Result to Decimal)
-    H --> I(Apply Negative Sign)
-    I --> K(Print Results)
-    E --> |No| J(Output Decimal as is)
-    J --> K
-    K --> L{Ask for New Input or End}
-    L --> |New Input| B
-    L --> |End| M(Finish)
+   A(Start)
+   A --> B(Prompt for 4-digit Hexadecimal Input)
+   B --> C(Convert Hexadecimal to Binary (16 bits))
+   C --> D(Convert Hexadecimal to Decimal (unsigned))
+   D --> E{Is the First Bit 1?}
+   E --> |Yes| F(Invert all Bits)
+   F --> G(Add 1 to the Result)
+   G --> H(Convert Result to Decimal)
+   H --> I(Apply Negative Sign)
+   I --> K(Print Results)
+   E --> |No| J(Output Decimal as is)
+   J --> K
+   K --> L{Ask for New Input or End}
+   L --> |New Input| B
+   L --> |End| M(Finish)
 ```
-
 
 ## Compilation and Execution
 
