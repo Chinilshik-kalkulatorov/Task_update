@@ -41,6 +41,8 @@ graph TD
     K --> L{Ask for New Input or End}
     L --> |New Input| B
     L --> |End| M(Finish)
+```
+
 
 ## Compilation and Execution
 
