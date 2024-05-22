@@ -28,7 +28,7 @@ The following diagram illustrates how the program works:
 graph TD;
    A(Start);
    A --> B(Prompt for 4-digit Hexadecimal Input);
-   B --> C(Convert Hexadecimal to Binary (16 bits));
+   B --> C("Convert Hexadecimal to Binary (16 bits)");
    C --> D(Convert Hexadecimal to Decimal (unsigned));
    D --> E{Is the First Bit 1?};
    E --> |Yes| F(Invert all Bits);
