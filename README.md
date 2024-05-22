@@ -33,10 +33,10 @@ graph TD;
    D --> E{Is the First Bit 1?};
    E --> |Yes| F(Invert all Bits);
    F --> G(Add 1 to the Result);
-   G --> H(Convert Result to Decimal)
+   G --> H(Convert Result to Decimal);
    H --> I(Apply Negative Sign);
    I --> K(Print Results);
-   E --> |No| J(Output Decimal as is)
+   E --> |No| J(Output Decimal as is);
    J --> K;
    K --> L{Ask for New Input or End};
    L --> |New Input| B;
