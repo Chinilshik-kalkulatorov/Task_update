@@ -29,7 +29,7 @@ graph TD;
    A(Start);
    A --> B(Prompt for 4-digit Hexadecimal Input);
    B --> C("Convert Hexadecimal to Binary (16 bits)");
-   C --> D(Convert Hexadecimal to Decimal (unsigned));
+   C --> D("Convert Hexadecimal to Decimal (unsigned)");
    D --> E{Is the First Bit 1?};
    E --> |Yes| F(Invert all Bits);
    F --> G(Add 1 to the Result);
